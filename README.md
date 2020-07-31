@@ -58,12 +58,12 @@ So wrapper script run like
 
 To create contents
 ```
-./mkdocs.sh -p produce -l my_dir -n image_name
+./mkdocs.sh -p produce -l project_dir -n image_name
 ```
 
 To serve contents for browser
 ```
-./mkdocs.sh -s serve -l my_dir -n image_name
+./mkdocs.sh -s serve -l project_dir -n image_name
 ```
 Now you should be able to browse
 http://localhost:8000
