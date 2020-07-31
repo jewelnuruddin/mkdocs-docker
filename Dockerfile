@@ -4,6 +4,6 @@ FROM python:3.8-slim
 MAINTAINER Jewel Mohammad Nuruddin
 RUN pip install --upgrade pip
 RUN pip install mkdocs
-WORKDIR  /project-dir
+WORKDIR  /projects
 
 EXPOSE 8000
